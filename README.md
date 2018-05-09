@@ -2,11 +2,12 @@
 
 Authors:
 Gabriel Carestia
-Thomas Feron
-Antoine Rummens
 Timothée Clément
 Nicolas Deffense
 François Dusquesne
+Thomas Feron
+Antoine Rummens
+
 
 -For French version, please see below-
 
