@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May  2 17:06:18 2018
-
-@author: Timothée
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  1 10:50:52 2018
-
-@author: Timothée
-"""
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
@@ -22,7 +9,7 @@ from skimage import measure
 from skimage.measure import regionprops
 
 
-name="voiture22.jpg"
+name="voiture.jpg"
 
 try:
     
@@ -339,8 +326,8 @@ class MyFirstGUI:
         self.master = master
         master.title("Reconnaissance de plaque")
 
-        self.label = Label(master, text="Veuillez copier dans le dossier 'C:/Users/Timothée/Documents/BIR/BIR21/Q2/questions spéciales de gestion de l'info/recon_plaque' l'image de votre plaque, sous le nom 'new_image.png'").grid(row=0,column=1)
-
+        self.label = Label(master, text="Veuillez copier dans le dossier de travail l'image de votre plaque sous le format voiture.jpg")
+                           
         self.run_button = Button(master, text="Exact, reconnaître le caractère suivant", command=self.run).grid(row=1,column=0)
         
         self.faux_button = Button(master,text="Faux, autre possibilité", command=self.faux).grid(row=2,column=0)
